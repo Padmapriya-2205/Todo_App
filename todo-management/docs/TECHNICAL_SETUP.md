@@ -14,8 +14,7 @@ The current `docker-compose.yml` defines **only PostgreSQL**. It does not define
 No repository clone URL is configured in this workspace. Replace the sample owner and repository with the actual hosting location:
 
 ```powershell
-git clone https://github.com/OWNER/REPOSITORY.git
-Set-Location REPOSITORY
+git clone https://github.com/Padmapriya-2205/Todo_App.git
 ```
 
 ## Environment configuration
