@@ -1,0 +1,18 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testMatch": ["<rootDir>/tests/unit/**/*.spec.ts"],
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "collectCoverageFrom": [
+    "src/auth/auth.service.ts",
+    "src/auth/auth.repository.ts",
+    "src/tasks/tasks.service.ts",
+    "src/tasks/tasks.repository.ts",
+    "src/tasks/tasks.controller.ts",
+    "src/tasks/tasks.dto.ts"
+  ],
+  "coverageDirectory": "<rootDir>/coverage",
+  "testEnvironment": "node"
+}
